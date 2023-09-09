@@ -11,20 +11,23 @@ type employees = {
 export function About() {
   return (
       <>
-      <div className="container-fluid">
-      <h2>About The JAC Team</h2>
-      <div className="d-flex">
+      <div className="container">
+      <h1 className="my-4 text-info">About The Team</h1>
+      <div className="row d-flex justify-content-center">
         {employeeData.map((data: employees) =>
-          <div className="card m-2" key={data.id}>
+          <div className="card p-2 m-3 border-dark" style={{width:"390px"}} key={data.id}>
             <img src={data.photo} className="card-img-top" alt="photo of employee" title={data.name}/>
-            <div className="card-body text-center bg-dark bg-gradient text-white">
+            <div className="card-body text-left">
               <h4 className="text-warning">{data.name}</h4>
               <h6 className="text-danger">{data.title}</h6>
-              <p className="card-text text-warning my-4">{data.bio}</p>
-              <a href={data.link} className="btn btn-light btn-sm me-4 text-dark" target="_blank">portfolio</a>
-              <a href={data.link2} className="btn btn-light btn-sm text-dark" target="_blank">github</a>
+              <p className="card-text text-dark my-4">{data.bio}</p>
+              </div>
+              <div className="text-center p-2">
+              <a href={data.link} className="btn btn-danger btn-md me-4 text-white fw-bold" target="_blank">portfolio</a>
+              <a href={data.link2} className="btn btn-danger btn-md text-white fw-bold px-4" target="_blank">github</a>
+              </div>
             </div>
-          </div>
+          
         )}
       </div>
       </div>

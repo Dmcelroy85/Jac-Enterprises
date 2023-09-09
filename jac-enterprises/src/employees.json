@@ -4,7 +4,7 @@
         "title": "Junior Full-Stack Developer",
         "photo": "./src/assets/images/derek.png",
         "name": "Derek McElroy",
-        "bio": "This is the bio section for Derek",
+        "bio": "Hey there, I'm Derek McElroy! Currently, I'm attending We Can Code It's Bootcamp, and I'm super excited about delving deeper into the world of Java Full Stack Development. For the past 5 years, I've been a learning trainer at Amazon, where I've had the opportunity to enhance my skills with various Microsoft tools. One tool that I excel in is Microsoft Excel—I've become quite the pro with it!",
         "link": "http://derek-mcelroy.com",
         "link2": "#"
     },
@@ -13,7 +13,7 @@
         "title": "Junior Full-Stack Developer",
         "photo": "./src/assets/images/chris.png",
         "name": "Chris Braid",
-        "bio": "This is the bio section for Chris",
+        "bio": "I graduated with dual associate degrees in Information Technology (Computer Networking Hardware & Software.) After graduating, I spent a few years as a stay-at-home parent. In 2021 I obtained my CompTIA A+ certification and one year later landed my first IT position. I am presently employed by Amazon. I am an IT equipment coordinator within the OpsTech Solutions department",
         "link": "https://burningxbeard.github.io/",
         "link2": "#"
     },
@@ -22,7 +22,7 @@
         "title": "Junior Full-Stack Developer",
         "photo": "./src/assets/images/umesh.png",
         "name": "Umesh Shrestha",
-        "bio": "This is the bio section for Umesh",
+        "bio": "Hello, I'm Umesh Shrestha, from Reynoldsburg, Ohio USA. I'm a currently learning front-end developing at We Can Code It. My goal is to develop many types of front-ends for well known DJ applications to Ecommerce booking platforms.",
         "link": "#",
         "link2": "#"
     },
@@ -31,7 +31,7 @@
         "title": "Junior Full-Stack Developer",
         "photo": "./src/assets/images/moises.png",
         "name": "Moises Galarza",
-        "bio": "This is the bio section for Moises",
+        "bio": "I'm Moises Galarza. I come from Ecuador, I come to the United States in 2013. I'm an automated logistical specialist in the U.S. Army Reserve. I graduated from the College of Staten Island (CSI) in New York. I have a two bachelor’s degree, one in Communication Design & Digital Media, and one in Spanish, also one minor in Linguistics. I currently work in Amazon (JFK8) since 2021, I’m a stower and I do Amnesty (Amazon Robotics).",
         "link": "#",
         "link2": "#"
     },
