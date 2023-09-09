@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Junior Full-Stack Developer",
+        "photo": "./src/assets/images/derek.png",
+        "name": "Derek McElroy",
+        "bio": "This is the bio section for Derek",
+        "link": "http://derek-mcelroy.com",
+        "link2": "#"
+    },
+    {
+        "id": 2,
+        "title": "Junior Full-Stack Developer",
+        "photo": "./src/assets/images/chris.png",
+        "name": "Chris Braid",
+        "bio": "This is the bio section for Chris",
+        "link": "https://burningxbeard.github.io/",
+        "link2": "#"
+    },
+    {
+        "id": 3,
+        "title": "Junior Full-Stack Developer",
+        "photo": "./src/assets/images/umesh.png",
+        "name": "Umesh Shrestha",
+        "bio": "This is the bio section for Umesh",
+        "link": "#",
+        "link2": "#"
+    },
+    {
+        "id": 4,
+        "title": "Junior Full-Stack Developer",
+        "photo": "./src/assets/images/moises.png",
+        "name": "Moises Galarza",
+        "bio": "This is the bio section for Moises",
+        "link": "#",
+        "link2": "#"
+    },
+    {
+        "id": 5,
+        "title": "Junior Full-Stack Developer",
+        "photo": "./src/assets/images/jacob.png",
+        "name": "Jacob Carrol",
+        "bio": "This is the bio section for Jacob",
+        "link": "#",
+        "link2": "#"
+    }
+]
