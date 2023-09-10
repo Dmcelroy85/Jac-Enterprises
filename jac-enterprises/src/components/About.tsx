@@ -18,8 +18,8 @@ export function About() {
           <div className="card p-2 m-3 border-dark" style={{width:"390px"}} key={data.id}>
             <img src={data.photo} className="card-img-top" alt="photo of employee" title={data.name}/>
             <div className="card-body text-left">
-              <h4 className="text-warning">{data.name}</h4>
-              <h6 className="text-danger">{data.title}</h6>
+              <h4 className="text-primary">{data.name}</h4>
+              <h6 className="text-danger fw-bold">{data.title}</h6>
               <p className="card-text text-dark my-4">{data.bio}</p>
               </div>
               <div className="text-center p-2">

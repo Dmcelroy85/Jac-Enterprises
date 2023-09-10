@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -10,13 +11,13 @@ function Header() {
     <div className="collapse navbar-collapse justify-content-end fs-4" id="navbarNav">
       <ul className="navbar-nav ">
         <li className="nav-item">
-        <button type="button" className="btn btn-danger btn-lg">Home</button>
+        <Link to="/"><button type="button" className="btn btn-danger btn-lg">Home</button></Link>
         </li>
         <li className="nav-item">
-        <button type="button" className="btn btn-danger btn-lg mx-4">About</button>
+        <Link to="about"><button type="button" className="btn btn-danger btn-lg mx-4">About</button></Link>
         </li>
         <li className="nav-item">
-        <button type="button" className="btn btn-danger btn-lg">Contact</button>
+        <Link to="contact"><button type="button" className="btn btn-danger btn-lg">Contact</button></Link>
         </li>
       </ul>
     </div>
