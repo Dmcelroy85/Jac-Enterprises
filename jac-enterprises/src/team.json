@@ -9,12 +9,12 @@
         "link2": "#"
     },
     {
-        "id": 2,
+        "id": 5,
         "title": "Junior Full-Stack Developer",
-        "photo": "./src/assets/images/chris.png",
-        "name": "Chris Braid",
-        "bio": "I graduated with dual associate degrees in Information Technology (Computer Networking Hardware & Software.) After graduating, I spent a few years as a stay-at-home parent. In 2021 I obtained my CompTIA A+ certification and one year later landed my first IT position. I am presently employed by Amazon. I am an IT equipment coordinator within the OpsTech Solutions department",
-        "link": "https://burningxbeard.github.io/",
+        "photo": "./src/assets/images/jacob.png",
+        "name": "Jacob Carrol",
+        "bio": "This is the bio section for Jacob",
+        "link": "#",
         "link2": "#"
     },
     {
@@ -38,10 +38,10 @@
     {
         "id": 5,
         "title": "Junior Full-Stack Developer",
-        "photo": "./src/assets/images/jacob.png",
-        "name": "Jacob Carrol",
-        "bio": "This is the bio section for Jacob",
-        "link": "#",
+        "photo": "./src/assets/images/chris.png",
+        "name": "Chris Braid",
+        "bio": "I graduated with dual associate degrees in Information Technology (Computer Networking Hardware & Software.) After graduating, I spent a few years as a stay-at-home parent. In 2021 I obtained my CompTIA A+ certification and one year later landed my first IT position. I am presently employed by Amazon. I am an IT equipment coordinator within the OpsTech Solutions department",
+        "link": "https://burningxbeard.github.io/",
         "link2": "#"
     }
 ]
