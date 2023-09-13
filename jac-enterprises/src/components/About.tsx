@@ -12,8 +12,8 @@ export function About() {
   return (
       <>
       <div className="container">
+      <div className="row d-flex justify-content-center shadow-lg pb-5">
       <h1 className="my-4 text-info">About The Team</h1>
-      <div className="row d-flex justify-content-center shadow-lg">
         {teamData.map((data: team) =>
           <div className="card p-2 m-3 border border-2 border-warning" style={{width:"390px"}} key={data.id}>
             <img src={data.photo} className="card-img-top" alt="photo of employee" title={data.name}/>

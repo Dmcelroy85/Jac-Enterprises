@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 function Footer() {
     return (
-    <div className="bg-warning mt-5">
+    <div className="bg-warning">
         <footer className="py-4">
             <ul className="nav justify-content-center pb-3 mb-3">
                 <li className="nav-item"><Link to="/" className="nav-link px-3 text-danger fw-bold">Home</Link></li>
