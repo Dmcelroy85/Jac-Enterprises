@@ -64,9 +64,8 @@ function Nasa() {
     };
 
     return (
-        <div className="App">
             <div className="container">
-            <header className="App-header d-flex justify-content-center shadow-lg">
+            <header className="app-header d-flex justify-content-center shadow-lg">
                 <img
                     src={nasaLogo}
                     alt="NASA Logo"
@@ -108,7 +107,7 @@ function Nasa() {
                     )}
                 </div>
             </header>
-        </div></div>
+        </div>
     );
 }
 

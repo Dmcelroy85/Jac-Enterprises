@@ -12,9 +12,11 @@ type team = {
 export function About() {
   return (
       
-      <div className="container bg-white">
-      <div className="row d-flex justify-content-center shadow-lg pb-5">
+      <div className="container shadow-lg">
+      <div className="row d-flex justify-content-center bg-white shadow-lg pb-5">
       <h1 className="my-4 text-info">About The Team</h1>
+                <p className="px-5">Founded in 2023 by a group of wild and crazy individuals with a tremendous love for the great outdoors and the many adventures the Earth has to offer.  These fab people chose to start guiding friends, family, and co-workers on the many adventures that they had experienced over their many years.  And due to the number of requests for guiding, <strong>Jac</strong> was born.</p>
+
         {teamData.map((data: team) =>
           <div className="card p-2 m-3 border border-2 border-warning" style={{width:"390px"}} key={data.id}>
             <img src={data.photo} className="card-img-top" alt="photo of employee" title={data.name}/>
