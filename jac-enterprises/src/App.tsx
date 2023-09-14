@@ -6,8 +6,6 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Nasa from './components/Nasa'
 
-
-
 function App() {
 
   return (
