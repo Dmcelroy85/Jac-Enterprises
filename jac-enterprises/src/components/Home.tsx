@@ -1,4 +1,6 @@
 import React from "react"
+import Joke from "./Joke"
+import Button from "./Button"
 
 function Home() {
     return (
@@ -8,6 +10,7 @@ function Home() {
         <div className="flex-fill p-4 rounded-5 border border-3 border-danger shadow-lg">Flex item 2<br/>Flex item 2<br/>Flex item 2<br/>Flex item 2<br/>Flex item 2<br/>Flex item 2</div>
         <div className="flex-fill p-4 rounded-5 border border-3 border-danger shadow-lg">Flex item 3</div>
     </div>
+    <Joke /><Button />
     </div>
     )
 }
