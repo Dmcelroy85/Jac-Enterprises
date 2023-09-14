@@ -11,7 +11,7 @@ import Nasa from './components/Nasa'
 function App() {
 
   return (
-    <div className="app">
+    <div className="app bg-info">
     <BrowserRouter>
     <Header />
       <Routes>

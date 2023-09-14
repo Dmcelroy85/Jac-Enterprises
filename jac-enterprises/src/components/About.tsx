@@ -11,8 +11,8 @@ type team = {
 }
 export function About() {
   return (
-      <>
-      <div className="container">
+      
+      <div className="container bg-white">
       <div className="row d-flex justify-content-center shadow-lg pb-5">
       <h1 className="my-4 text-info">About The Team</h1>
         {teamData.map((data: team) =>
@@ -32,6 +32,6 @@ export function About() {
         )}
       </div>
       </div>
-      </>
+      
   )
 }

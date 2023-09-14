@@ -1,6 +1,11 @@
 import React, {useEffect, useState} from "react";
 import Button from "./Button";
 
+type data = {
+  setup: string
+  punchline: string
+}
+
 function Joke() {
 
   const [data, setData] = useState([]);
