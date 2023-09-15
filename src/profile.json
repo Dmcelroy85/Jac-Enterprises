@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "photo": "Building a Todo App with Vue",
+    "alt": "photo of a person",
+    "name": "Chris Braid",
+    "profilelink": "burningxbeard.github.io",
+    "hobbies": "Comic collecting, Guitar, Music Production"
+  },
+  {
+    "id": 2,
+    "photo": "Building a Todo App with Vue",
+    "alt": "photo of a person",
+    "name": "Derek McElroy",
+    "profilelink": "derek-mcelroy.com",
+    "hobbies": "things"
+  },
+  {
+    "id": 3,
+    "photo": "Building a Todo App with Vue",
+    "alt": "photo of a person",
+    "name": "Moises Galarza",
+    "profilelink": "something.github.io",
+    "hobbies": "stuff and things"
+  },
+  {
+    "id": 4,
+    "photo": "Building a Todo App with Vue",
+    "alt": "photo of a person",
+    "name": "Jacob Carroll",
+    "profilelink": "something.github.io",
+    "hobbies": "stuff and things"
+  },
+  {
+    "id": 5,
+    "photo": "Building a Todo App with Vue",
+    "alt": "photo of a person",
+    "name": "Umesh Shrestha",
+    "profilelink": "something.github.io",
+    "hobbies": "stuff and things"
+  }
+]

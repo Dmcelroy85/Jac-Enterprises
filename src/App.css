@@ -1,12 +1,10 @@
 /* General styles for the application */
-.App {
-    text-align: center;
-}
+
     
 /* Styles for the header */
-.App-header {
+.app-header {
     background-color: #282c34;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,18 +21,22 @@
 /* Styles for search results */
 .image-results {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column;
     justify-content: center;
 }
 
 .image-results div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 680px;
     margin: 10px;
     cursor: pointer;
 }
 
 .image-results img {
     margin: 10px;
-    max-width: 100%;
+    min-width: 680px;
     height: auto;
     display: block;
     border: 1px solid #ddd;
@@ -95,7 +97,7 @@
 }
 
 .nasa-logo {
-    width: 100px;
+    width: 300px;
     height: auto;
     margin-top: 30px;
 }
@@ -144,10 +146,7 @@ input[type="text"].searching {
 .clear-button:hover {
     background-color: #0056b3;
 }
-/* Estilos para el pie de página */
-.App-footer {
-    background-color: #0B3D91;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+
+.form-group {
+    padding: 20px;
 }

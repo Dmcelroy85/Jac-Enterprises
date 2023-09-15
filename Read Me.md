@@ -36,8 +36,11 @@ The following are the requirements that Jac Enterprises expects for their applic
   - Harvard LibraryLinks to an external site.
 - Must build your own backend API and do at least a POST, PUT, or DELETE request on that API
 - Each new visit to the Mystery Educator will provide something new to learn and explore
+
 - An About page of the team members including professional pics and bios
+
 - A Contact page redirecting back to a Jac Enterprises page that can be obtain hereLinks to an external site..
+
 - Any other pertinent information associated with the educational topics
 presented in your application that will set you apart from the competition.
 
