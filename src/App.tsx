@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Home from './components/Home'
 import Footer from './components/Footer'
 import Nasa from './components/Nasa'
+import Bored from './components/Bored'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/nasa" element={<Nasa />} />
+        <Route path="/Bored" element={<Bored />} />
       </Routes>
     <Footer />
     </BrowserRouter>
