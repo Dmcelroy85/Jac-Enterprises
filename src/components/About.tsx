@@ -1,5 +1,5 @@
 import teamData from '../team.json'
-import Jokes from './Joke'
+
 type team = {
   id: number,
   title: string,
