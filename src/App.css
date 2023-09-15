@@ -150,3 +150,12 @@ input[type="text"].searching {
 .form-group {
     padding: 20px;
 }
+
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+  }
