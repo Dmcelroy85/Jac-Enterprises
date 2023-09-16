@@ -48,7 +48,7 @@ let team = [{
     }
 ];
 
-router.get("/", (req, res) => {
+router.get("/all", (req, res) => {
     res.status(200).json(team);
 });
 
