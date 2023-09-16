@@ -7,6 +7,8 @@ import Home from './components/Home'
 import Footer from './components/Footer'
 import Nasa from './components/Nasa'
 import Bored from './components/Bored'
+import UserDisplay from './components/UserDisplay';
+
 
 function App() {
 
@@ -23,8 +25,7 @@ function App() {
       </Routes>
     <Footer />
     </BrowserRouter>
-    </div>
-  )
+    </div>)
 }
 
 export default App
