@@ -10,7 +10,7 @@ let team = [{
         "link2": "#"
     },
     {
-        "id": 5,
+        "id": 2,
         "title": "Junior Full-Stack Developer",
         "photo": "./src/assets/images/jacob.png",
         "name": "Jacob Carrol",
