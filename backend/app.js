@@ -1,4 +1,5 @@
 const express = require('express')
+const cors = require('cors')
 const team = require('./routes/team/team')
 const users = require('./routes/users/users')
 const app = express()
