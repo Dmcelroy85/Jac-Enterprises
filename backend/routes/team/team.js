@@ -1,6 +1,5 @@
 const express = require("express");
 const router = express.Router();
-
 let team = [{
         "id": 1,
         "title": "Junior Full-Stack Developer",
