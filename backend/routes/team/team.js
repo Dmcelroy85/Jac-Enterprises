@@ -52,4 +52,33 @@ router.get("/", (req, res) => {
     res.status(200).json(team);
 });
 
+router.post("/new", (req, res) => {
+    console.log(req.body);
+    let user = {
+        title : req.body.title,
+        photo : req.body.photo,
+        name : req.body.name,
+        bio : req.body.bio,
+        link : req.body.link,
+        link2 : req.body.link2
+    };
+    users.push(user);
+    res.status(201).json({
+        message: "User Created!",
+    });
+});
+
+router.delete("/:id", (req, res) => {
+    console.log(req.params);
+    if (users[req.params.id]) {
+        users.splice(req.params.id, 1);
+        return res.status(200).json({
+            "message": "User Deleted!"
+        });
+    }
+    return res.status(404).json({
+        error: "User not Found!",
+    })
+});
+
 module.exports = router;
